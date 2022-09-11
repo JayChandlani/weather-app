@@ -4,7 +4,7 @@ import Temp from './temp'
 
 const Weather = () => {
     const [loc,setLoc]=useState("jaipur");
-    const [obj,setObj]=useState("");
+    const [obj,setObj]=useState({});
 
     const getWeather = async () => {
         try {
