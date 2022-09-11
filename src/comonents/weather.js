@@ -35,7 +35,7 @@ const Weather = () => {
             console.log("invalid api")
         }
     }
-useEffect(()=>{getWeather()})
+useEffect(()=>{getWeather()},[])
 console.log();
     return (
         <div className='container'>
