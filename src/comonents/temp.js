@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {Time} from './time.js'
+import Time from './time.js'
 const Temp = ({
     temp,
     humidity,
