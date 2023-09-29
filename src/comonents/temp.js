@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import {Time} from './time.js'
 const Temp = ({
     temp,
     humidity,
@@ -68,9 +68,7 @@ const Temp = ({
                         <p className='loc'>{name},{country}</p>
                     </div>
                 </div>
-                <div className='wed'>
-                    <p>{new Date().toLocaleString()}</p>
-                </div>
+                <Time />
             </div>
             <div className='forcast'>
                 <div className='fa'>
